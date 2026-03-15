@@ -6,11 +6,15 @@ class Program
     {
         Console.WriteLine("Hello, World!");
 
-        var a = 15;
+        var a = 5;
 
         if (a > 10)
         {
             Console.WriteLine(a + " is bigger than 10");
+        }
+        else
+        {
+            Console.WriteLine(a + " is smaller than 10");
         }
     }
 }
