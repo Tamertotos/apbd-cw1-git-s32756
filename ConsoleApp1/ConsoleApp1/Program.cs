@@ -10,15 +10,15 @@ class Program
         Console.WriteLine("Fast forward merge");
         Console.WriteLine("Hello, World!");
 
-        var c = 5;
+        var b = 5;
 
-        if (c > 10)
+        if (b > 10)
         {
-            Console.WriteLine(c + " is bigger than 10");
+            Console.WriteLine(b + " is bigger than 10");
         }
         else
         {
-            Console.WriteLine(c + " is smaller than 10");
+            Console.WriteLine(b + " is smaller than 10");
         }
 
         int[] x = { 3, 4 };
