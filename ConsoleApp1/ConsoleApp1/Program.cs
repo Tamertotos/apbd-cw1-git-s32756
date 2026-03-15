@@ -17,4 +17,9 @@ class Program
             Console.WriteLine(a + " is smaller than 10");
         }
     }
+
+    static int CalculateAverage(int[] values)
+    {
+        return (values.Sum() / values.Length);
+    }
 }
