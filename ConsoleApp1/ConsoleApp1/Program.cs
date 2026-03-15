@@ -21,10 +21,16 @@ class Program
 
         int[] x = { 3, 4 };
         Console.WriteLine("Average value of the array is: " + CalculateAverage(x));
+        Console.WriteLine("The maximum value in the array is: " + CalculateMax(x));
     }
 
     static int CalculateAverage(int[] values)
     {
         return (values.Sum() / values.Length);
+    }
+
+    static int CalculateMax(int[] values)
+    {
+        return values.Max();
     }
 }
