@@ -12,13 +12,13 @@ class Program
 
         var b = 5;
 
-        if (a > 10)
+        if (b > 10)
         {
-            Console.WriteLine(a + " is bigger than 10");
+            Console.WriteLine(b + " is bigger than 10");
         }
         else
         {
-            Console.WriteLine(a + " is smaller than 10");
+            Console.WriteLine(b + " is smaller than 10");
         }
 
         int[] x = { 3, 4 };
