@@ -16,6 +16,9 @@ class Program
         {
             Console.WriteLine(a + " is smaller than 10");
         }
+
+        int[] x = { 3, 4 };
+        Console.WriteLine("Average value of the array is: " + CalculateAverage(x));
     }
 
     static int CalculateAverage(int[] values)
