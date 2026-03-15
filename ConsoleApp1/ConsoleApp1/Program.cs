@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("Another main branch commit before non fast-forward merging");
         Console.WriteLine("Fast forward merge");
         Console.WriteLine("Hello, World!");
 
