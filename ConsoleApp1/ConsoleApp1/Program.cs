@@ -24,6 +24,7 @@ class Program
         Console.WriteLine("Average value of the array is: " + CalculateAverage(x));
         Console.WriteLine("The maximum value in the array is: " + CalculateMax(x));
         Console.WriteLine("The minimum value in the array is: " + CalculateMin(x));
+        Console.WriteLine("Hello");
     }
 
     static int CalculateAverage(int[] values)
