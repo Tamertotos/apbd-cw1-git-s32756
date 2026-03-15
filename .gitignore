@@ -51,5 +51,6 @@ CodeCoverage/
 # NUnit
 *.VisualState.xml
 TestResult.xml
-nunit-*.xml#Rider IDE
+nunit-*.xml
+#Rider IDE
 .idea/
