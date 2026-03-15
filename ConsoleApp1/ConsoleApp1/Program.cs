@@ -10,7 +10,7 @@ class Program
         Console.WriteLine("Fast forward merge");
         Console.WriteLine("Hello, World!");
 
-        var a = 5;
+        var b = 5;
 
         if (a > 10)
         {
