@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("Rebased 2 branches");
         Console.WriteLine("Non fast-forward merge completed");
         Console.WriteLine("Another main branch commit before non fast-forward merging");
         Console.WriteLine("Fast forward merge");
