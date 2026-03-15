@@ -35,4 +35,9 @@ class Program
     {
         return values.Max();
     }
+
+    static int CalculateMin(int[] values)
+    {
+        return values.Min();
+    }
 }
